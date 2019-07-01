@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from "react-dom";
 import { ThemeProvider } from 'styled-components';
-import {ItsWorking} from './lib'
+import Skeleton from './lib'
 
 class App extends React.Component {
 
@@ -26,7 +26,10 @@ class App extends React.Component {
             <label htmlFor='dark'>Dark Mode</label>
             <input  type='radio' id='dark' name='mode' onChange={this.changeMode}/>
           </div>
-          <ItsWorking/>
+          <h2><Skeleton width={200} color='blue'/></h2>
+          <Skeleton width={400}/>
+          <h5><Skeleton width={150}/></h5>
+          <h2><Skeleton width={250}/></h2>
         </div>
       </ThemeProvider>
     )

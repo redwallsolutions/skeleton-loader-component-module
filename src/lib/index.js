@@ -1,3 +1,3 @@
-import ItsWorking from './components/ItsWorking'
+import Skeleton from './components/Skeleton'
 
-export {ItsWorking}
+export default Skeleton
