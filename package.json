@@ -1,6 +1,6 @@
 {
   "name": "@redwallsolutions/skeleton-loader-component-module",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "type": "dist/index.d.ts",
@@ -35,13 +35,13 @@
     "react-dom": "^16.11.0",
     "react-icons": "^3.8.0",
     "rimraf": "^2.6.3",
-    "typescript": "^3.7.2",
-    "styled-components": "^4.4.1"
+    "styled-components": "^4.4.1",
+    "typescript": "^3.7.2"
   },
   "peerDependencies": {
-    "styled-components": "^4.4.1",
     "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react-dom": "^16.11.0",
+    "styled-components": "^4.4.1"
   },
   "dependencies": {
     "@redwallsolutions/common-interfaces-ts": "^1.0.2",
